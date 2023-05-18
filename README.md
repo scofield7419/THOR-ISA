@@ -10,7 +10,7 @@ Codes for the ACL23 short paper [Reasoning Implicit Sentiment with Chain-of-Thou
 in implicit sentiment analysis (ISA) the opinion cues come in an implicit and obscure manner.
 
 <p align="center">
-  <img src="./figures/task.png" width="500"/>
+  <img src="./figures/task.png" width="450"/>
 </p>
 
 
