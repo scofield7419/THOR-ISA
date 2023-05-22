@@ -82,7 +82,7 @@ If you use this work, please kindly cite:
 @article{feietal2023arxiv,
   title={Reasoning Implicit Sentiment with Chain-of-Thought Prompting},
   author={Hao Fei, Bobo Li, Qian Liu, Lidong Bing, Fei Li, Tat-Seng Chua}
-  journal={arXiv preprint arXiv:2211.05705},
+  journal={arXiv preprint arXiv:2305.11255},
   year={2023}
 }
 ```
