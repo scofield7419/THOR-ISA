@@ -1,6 +1,6 @@
 # THOR-ISA
 
-Codes for the ACL23 short paper [Reasoning Implicit Sentiment with Chain-of-Thought Prompting](https://arxiv.org/)
+Codes for the ACL23 short paper [Reasoning Implicit Sentiment with Chain-of-Thought Prompting](https://arxiv.org/abs/2305.11255)
 
 ----------
 
