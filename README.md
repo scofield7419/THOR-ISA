@@ -119,7 +119,7 @@ Configure more parameters in [config.yaml](config%2Fconfig.yaml) file.
 
 ### Suggestions<a name="suggest" />
 
-- Suggest start with big enough LLM (i.e., `flan-t5-xl`), to better see the extraordinary reasoning ability.
+- Suggest start with big enough LLM (e.g., `flan-t5-xl`), to better see the extraordinary reasoning ability.
 - To tune the system with supervision, preferred with bigger batch size, and with large GPU ram; suggest with A100. 
 - THOR is quite slower than the prompting mode.
 
