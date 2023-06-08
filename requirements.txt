@@ -1,0 +1,8 @@
+attrdict==2.0.1
+PyYAML==6.0
+transformers==4.29.0
+numpy
+pandas
+scikit_learn
+torch
+tqdm

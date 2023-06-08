@@ -1,0 +1,27 @@
+data_dir: './data'
+preprocessed_dir: './data/preprocessed'
+target_dir: './data/save'
+model_path: 'google/flan-t5-base'
+model_size: 'base'
+label_list:  ['positive', 'negative', 'neutral']
+emb_dim: 300
+output_channels: 100
+speaker_emb_dims: 300
+project_dims: 300
+max_length: 300
+batch_size: 30
+epoch_size: 10
+train_mode: random
+filters: [3,4,5]
+dropout: 0.5
+shuffle: True
+learning_rate: 1e-4
+bert_lr: 2e-4
+patience: 100
+max_grad_norm: 1.0
+warmup_proportion: 0.1
+gradient_accumulation_steps: 1
+adam_epsilon: 1e-8
+warmup_steps: 0
+weight_decay: 0.01
+seed: 42
