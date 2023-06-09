@@ -5,6 +5,9 @@
 <a href="https://github.com/scofield7419/THOR-ISA" rel="nofollow">
   <img src="https://img.shields.io/badge/CoT-1.0-red" alt="pytorch 1.8.1">
 </a>
+<a href="https://huggingface.co/docs/transformers/model_doc/flan-t5" rel="nofollow">
+  <img src="https://img.shields.io/badge/Flan-T5-purple" alt="Build Status">
+</a>
 <a href="https://huggingface.co/docs/transformers/index" rel="nofollow">
   <img src="https://img.shields.io/badge/transformers-4.24.0-green" alt="Build Status">
 </a>
@@ -109,7 +112,7 @@ Some important arguments:
 - `-c`, `--cuda_index`: Index of the GPU to use for computation (default is 0).
 - `-d`, `--data_name`: Name of the dataset. Choices are 'restaurants' or 'laptops' (default is 'laptops').
 - `-r`, `--reasoning`: Specifies the reasoning mode, with one-step prompt or multi-step thor mode (default is 'thor').
-- `-z`, `--zero_shot`: If included, the model will perform zero-shot prediction, otherwise run the fine-tuning on the train set (default is True).
+- `-z`, `--zero_shot`: If True, the system directly performs zero-shot prediction, otherwise run the fine-tuning on the train set (default is True).
 - `-f`, `--config`: Specifies the location of [config.yaml](config%2Fconfig.yaml) file.
 
 Configure more parameters in [config.yaml](config%2Fconfig.yaml) file.
