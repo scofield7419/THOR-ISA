@@ -115,7 +115,7 @@ Some important arguments:
 - `-z`, `--zero_shot`: If True, the system directly performs zero-shot prediction, otherwise run the fine-tuning on the train set (default is True).
 - `-f`, `--config`: Specifies the location of [config.yaml](config%2Fconfig.yaml) file.
 
-Configure more parameters in [config.yaml](config%2Fconfig.yaml) file.
+Configurate more parameters in [config.yaml](config%2Fconfig.yaml) file.
 
 
 ----------
