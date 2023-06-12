@@ -92,11 +92,11 @@ SemEval14 Laptop ([laptops](data%2Flaptops)) and Restaurant ([restaurants](data%
 ----------
 ### LLMs<a name="llm" />
 
-A. Use the Flan-T5 as the backbone LLM reasoner
-    - [google/flan-t5-base](https://huggingface.co/google/flan-t5-base),  
-    - [google/flan-t5-large](https://huggingface.co/google/flan-t5-large), 
-    - [google/flan-t5-xl](https://huggingface.co/google/flan-t5-xl),  
-    - [google/flan-t5-xxl](https://huggingface.co/google/flan-t5-xxl),  
+A. Use the Flan-T5 as the backbone LLM reasoner:
+  - [google/flan-t5-base](https://huggingface.co/google/flan-t5-base),  
+  - [google/flan-t5-large](https://huggingface.co/google/flan-t5-large), 
+  - [google/flan-t5-xl](https://huggingface.co/google/flan-t5-xl),  
+  - [google/flan-t5-xxl](https://huggingface.co/google/flan-t5-xxl),  
 
 B. Evaluate with OpenAI [GPT-3.5](https://platform.openai.com/docs/models/gpt-3-5)
 
