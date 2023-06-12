@@ -27,7 +27,8 @@
   - [Requirement](#requirement)
   - [Dataset](#data)
   - [LLMs](#llm)
-  - [Run the code](#run)
+  - [Run with Flan-T5](#runt5)
+  - [Run with GPT-3.5](#GPT)
   - [Suggestions](#suggest)
 - [MISC](#misc)
 
@@ -91,17 +92,18 @@ SemEval14 Laptop ([laptops](data%2Flaptops)) and Restaurant ([restaurants](data%
 ----------
 ### LLMs<a name="llm" />
 
-Use the Flan-T5 as the backbone LLM reasoner:
-- [google/flan-t5-base](https://huggingface.co/google/flan-t5-base),  
-- [google/flan-t5-large](https://huggingface.co/google/flan-t5-large), 
-- [google/flan-t5-xl](https://huggingface.co/google/flan-t5-xl),  
-- [google/flan-t5-xxl](https://huggingface.co/google/flan-t5-xxl),  
+A. Use the Flan-T5 as the backbone LLM reasoner
+    - [google/flan-t5-base](https://huggingface.co/google/flan-t5-base),  
+    - [google/flan-t5-large](https://huggingface.co/google/flan-t5-large), 
+    - [google/flan-t5-xl](https://huggingface.co/google/flan-t5-xl),  
+    - [google/flan-t5-xxl](https://huggingface.co/google/flan-t5-xxl),  
 
+B. Evaluate with OpenAI [GPT-3.5](https://platform.openai.com/docs/models/gpt-3-5)
 
 ----------
-### Run the code<a name="run" />
+### Training and Evaluating with Flan-T5<a name="runt5" />
 
-Use the [main.py](main.py) script with command-line arguments to run the THOR system. 
+Use the [main.py](main.py) script with command-line arguments to run the Flan-T5-based THOR system. 
 
 
 ```bash
@@ -117,6 +119,19 @@ Some important arguments:
 
 Configurate more parameters in [config.yaml](config%2Fconfig.yaml) file.
 
+
+----------
+
+### Evaluating with GPT-3.5<a name="GPT" />
+
+Go to the [eval_GPT](eval_GPT) fold, and run the [run_gpt_eval.py](eval_GPT%2Frun_gpt_eval.py) script:
+
+```bash
+python run_gpt_eval.py -k <openai_key> -d [restaurants|laptops]
+```
+
+Indicating your openai key. 
+The reasoning traces and outputs of GPT for all instances are saved in `output_<data_name>.txt` file.
 
 ----------
 

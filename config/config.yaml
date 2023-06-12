@@ -1,6 +1,6 @@
-data_dir: './data'
-preprocessed_dir: './data/preprocessed'
-target_dir: './data/save'
+data_dir: 'data'
+preprocessed_dir: 'data/preprocessed'
+target_dir: 'data/save'
 model_path: 'google/flan-t5-base'
 model_size: 'base'
 label_list:  ['positive', 'negative', 'neutral']
