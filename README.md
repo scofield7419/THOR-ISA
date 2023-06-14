@@ -19,6 +19,9 @@
 **The pytroch implementation of the ACL23 paper (short) [Reasoning Implicit Sentiment with Chain-of-Thought Prompting](https://arxiv.org/abs/2305.11255)**
 
 ----------
+ ### 🎉 Visit the project page here [THOR-ISA](http://haofei.vip/THOR/)
+
+----------
 
 
 ## Quick Links
@@ -158,7 +161,7 @@ If you use this work, please kindly cite:
 ```
 @inproceedings{FeiAcl23THOR,
   title={Reasoning Implicit Sentiment with Chain-of-Thought Prompting},
-  author={Hao Fei, Bobo Li, Qian Liu, Lidong Bing, Fei Li, Tat-Seng Chua}
+  author={Hao Fei, Bobo Li, Qian Liu, Lidong Bing, Fei Li, Tat-Seng Chua},
   booktitle = "Proceedings of the Annual Meeting of the Association for Computational Linguistics",
   year={2023}
 }
