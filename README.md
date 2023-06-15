@@ -16,7 +16,7 @@
 </a>
 
 
-**The pytroch implementation of the ACL23 paper (short) [Reasoning Implicit Sentiment with Chain-of-Thought Prompting](https://arxiv.org/abs/2305.11255)**
+**The pytroch implementation of the ACL23 paper [Reasoning Implicit Sentiment with Chain-of-Thought Prompting](https://arxiv.org/abs/2305.11255)**
 
 ----------
  ### 🎉 Visit the project page: [THOR-ISA](http://haofei.vip/THOR/)
