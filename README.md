@@ -1,4 +1,4 @@
-# 🧛🏼‍♀️⚡⚒️ THOR: Three-hop Reasoning for Implicit Sentiment
+## 🧛🏼‍♀️⚡⚒️ THOR: Three-hop Reasoning for Implicit Sentiment
 <a href="https://github.com/scofield7419/THOR-ISA">
   <img src="https://img.shields.io/badge/THOR-1.0-blue" alt="pytorch 1.8.1">
 </a>
