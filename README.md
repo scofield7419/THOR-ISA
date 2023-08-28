@@ -163,6 +163,7 @@ If you use this work, please kindly cite:
   title={Reasoning Implicit Sentiment with Chain-of-Thought Prompting},
   author={Hao Fei, Bobo Li, Qian Liu, Lidong Bing, Fei Li, Tat-Seng Chua},
   booktitle = "Proceedings of the Annual Meeting of the Association for Computational Linguistics",
+  pages = "1171--1182",
   year={2023}
 }
 ```
